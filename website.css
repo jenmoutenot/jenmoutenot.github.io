@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500');
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-image: url("img/pic-background.jpg");
+}
+
+p {
+  font-size: 1em;
+}
+
+.pic-background {
+/*  background-image: url("img/pic-background.jpg");*/
+}
+
+.white-background {
+  background-color: white;
+  width: 99.5%;
+  height: auto;
+  margin: 1em auto;
+  padding-bottom: 1.5em;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active,
+.h1_greeting-name {
+  color: #67c1a0;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+.h1_greeting, .h1_greeting-name {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+.div_greeting-desc {
+  margin-top: 7em;
+}
+
+.p_greeting-desc, .p_contact {
+  padding: 0.1em 0em;
+}
+
+.div_section {
+  margin-top: 7em;
+}
+
+.h2_section-title {
+  font-size: 28px;
+}
+
+.ul_site {
+  padding-left: 0px;
+}
+
+.li_site {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0.4em 0em;
+}
+
+.li_contact {
+  display: inline;
+}
+
+.a_contact {
+  display: inline;
+}
+
+.p_contact {
+  display: inline;
+}
+
+.div_contact {
+  display: inline
+}
+
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  .site {
+    padding: 5em 7em;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  h1 {
+    font-size: 100px;
+  }
+
+  .site {
+    padding: 2em 1.5em;
+  }
+
+  .white-background {
+    width: 97%;
+  }
+}
